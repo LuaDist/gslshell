@@ -1,0 +1,9 @@
+
+ENABLE_COMPLEX = yes
+BUILD_LUA_DLL = no
+
+# PLATFORM should can be linux or mingw
+PLATFORM = none
+
+CC = gcc
+CFLAGS = -g -Wall

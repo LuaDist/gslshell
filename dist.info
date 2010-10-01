@@ -1,0 +1,17 @@
+--- This file is part of LuaDist project
+
+name = "gslshell"
+version = "0.6"
+desc = "GSL shell is an interactive Lua command line interface that gives easy access to the GNU Scientific Library (GSL) collection of mathematical methods for numerical computations."
+author = "Francesco Abbate"
+url = "https://savannah.nongnu.org/projects/gsl-shell/"
+maintainer = "Peter Drahoš"
+license = "GPL"
+
+-- note: includes llimits.h from lualnum since lualnum doesn't
+-- install it.
+
+depends = {
+  "lua ~> 5.1",
+  "gsl >= 1.11"
+}
